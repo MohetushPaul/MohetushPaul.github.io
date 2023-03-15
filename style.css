@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    background-color: #1c1c1c;
+}
+
+.nav_bar ,a{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: ; */
+    background-color: yellow;
+    padding: 5px 10px;
+    margin: auto;
+}
+
+footer{display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 10px ;
+    background-color: yellow;
+    font-size: 30px;
+    width: 80%;
+    text-decoration: none;
+    margin: auto
+}
+footer a{
+    display: flex;
+    justify-content: space-evenly;
+    flex: wrap;
+    text-decoration: none;
+    color: #1c1c1c;
+
+}
+
+section h2{
+    display: flex;
+    justify-content: center;
+    color: coral;
+}
+
+p{
+    float: right;     
+    text-align: center;
+    color: white;
+    padding: 0 60px;
+    margin: auto;
+}
+
+.container1{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: auto;
+}
+
+.container-img1 {
+	
+	padding: 50px 250px 40px;
+	max-width: 0px; width: 350px;
+		margin: 30px 380px 30px 0;
+		float: left;
+}
+
+	.container-txt1 {
+		width: 250px;
+		margin: 100px -100px 30px 0;
+		float: right;
+        color: white;
+        display: inline;
+        text-align: center;
+        font-size: 10px;
+        max-width: 320px;width: 750px;
+	}
+    .container2{
+        display: flex;
+        justify-content: space-evenly;
+        width: 80%;
+        margin: auto;
+    }
+    
+    .container-img2 {
+	
+        padding: 50px 250px 40px;
+        max-width: 0px; width: 350px;
+            margin: 30px 380px 30px 0;
+            float: right;
+    }
+        .container-txt2 {
+            width: 250px;
+            margin: 100px -100px 30px 0;
+            float: left;
+            color: white;
+            display: inline;
+            text-align: center;
+            font-size: 10px;
+            max-width: 300px; width: 750px;
+        }
+
+.footer{
+        float: center;
+        color: coral;
+        display: flex;
+        align-items: flex-end;
+
+}
